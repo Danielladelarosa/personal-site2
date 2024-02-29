@@ -105,5 +105,30 @@ article > img{
     background-image: url(https://wallpapers.com/images/hd/series-of-youtube-logo-play-buttons-igcebwm3hguhxvpd.jpg) ;
     border-color: red;
 }
+/* contact pg */
+form{
+    font-size: 24pt;
+    
+}
+input{
+    width: 50%;
+    height: 35px;
+}
+#submit{
+    font-size: 24pt;
+    font-family: 'Times New Roman', Times, serif;
+    width: 25%;
+    height: 5%;
+    border: 2px hotpink;
+    border-radius: 10px;
 
+}
+#submit:hover{
+    background-color: #ED5AB3;
+    color: #1640D6;
 
+}
+#submit:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px)
+}
