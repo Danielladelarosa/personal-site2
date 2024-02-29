@@ -1,7 +1,53 @@
 body{
-    background-color: gold;
+    background-image: url(https://previews.123rf.com/images/fufupix/fufupix1608/fufupix160800075/69702120-crumpled-pink-paper-texture-background.jpg);
 }
 nav{
     background-color: aqua;
+    display: flex; 
+    padding-inline: 10px;
+    border: 10px solid pink;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 300%;
+    font-family: monospace;
+    margin: 10px;
+    padding: 10px;
+    border: 10px dashed;
+    box-shadow: 0 5px 10px;
+
+}
+h1{
+    font-size: 700% ;
+    text-align: center;
+    text-shadow: 1px 1px 2px hotpink, 0 0 1em pink, 0 0 0.2em black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    font-size: 200%;
+}
+footer{
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+img{ 
+    height: 35%;
+    width: auto;
+    border: 10px dotted #1640D6;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body > p{
+    display: flex;
+    background-color: #ED5AB3;
+    font-size: 18pt;
+    border: 50px solid #1640D6;
+    border-radius: 20px;
+    
     
 }
