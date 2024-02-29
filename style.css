@@ -14,13 +14,14 @@ nav{
     padding: 10px;
     border: 10px dashed;
     box-shadow: 0 5px 10px;
+    
 
 }
 h1{
     font-size: 700% ;
     text-align: center;
     text-shadow: 1px 1px 2px hotpink, 0 0 1em pink, 0 0 0.2em black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Brush Script MT", cursive;;
 }
 h2{
     text-align: center;
@@ -51,3 +52,58 @@ body > p{
     
     
 }
+/* portfolio */
+article{ 
+   display: flex;
+
+}
+article > h1{
+    font-size: 16pt;
+    text-shadow: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* display: flex;  */
+    border: double 5px;
+    background-color: #ED5AB3 ;
+    border-radius: 10px;
+
+}
+article > img{
+    shape-outside: ellipse();
+    padding: 10px;
+    margin: 5%;
+    height: 35%;
+    width: 20%;
+
+}
+/*  socials  */
+.socials{
+    background-color: blanchedalmond;
+    border: 10px solid;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+/* instructors: take a look at my hover effects! */
+#Instagram:hover{
+    background-image: url(https://wallpapercosmos.com/w/full/d/4/b/80537-2560x1440-desktop-hd-instagram-background-image.jpg);
+    border-color: yellow;
+}
+#linkedin:hover{
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2022/02/06/Linkedin-Logo-Graphics-24739313-1.png);
+    border-color: chartreuse;
+}
+#tiktok:hover{
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/33/93/tiktok-logo-pattern-background-free-vector-39053393.jpg);
+    border-color: #ED5AB3;
+}
+#youtube:hover{
+    background-image: url(https://wallpapers.com/images/hd/series-of-youtube-logo-play-buttons-igcebwm3hguhxvpd.jpg) ;
+    border-color: red;
+}
+
+
